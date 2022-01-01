@@ -23,7 +23,7 @@ def main():
       
 @main.command()
 @click.argument("link")
-def remote(link):
+def upload(link):
     '''upload from link'''
     if "http://" in link or "https://" in link:
         md_link = d.upload(link)
