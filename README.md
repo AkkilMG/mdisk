@@ -1,4 +1,4 @@
-# Mdisk (🚧 On Construction 🚧)
+# Mdisk
 
 
 ## Install
@@ -20,20 +20,20 @@ You can use this as python module or via terminal
 
 ### Use as python module
 ```python
-from doodstream import DoodStream
+from mdisk import Mdisk
 
-d = DoodStream("YOUR_API_KEY")
+d = Mdisk("YOUR_API_KEY")
 
 # Upload video from direct links
 d.upload("VIDEO_LINK")
 ```
 
 ### Use via terminal
-set your doodstream api key first
+set your Mdisk api key first
 ```bash
 export MDISK_API=you_key_here
 ```
-- Check doodstream account info
+- Providesw link for mdisk
 ```bash
 mdisk upload VIDEO_LINK
 ```
