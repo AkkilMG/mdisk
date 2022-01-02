@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mdisk-unofficial',
+    name='mdisk',
     version='0.1.0',
     description='Unofficial python api wrapper from https://mdisk.me',
     long_description=open("README.md", "r").read(),
