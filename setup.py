@@ -24,7 +24,7 @@ setup(
         "Operating System :: OS Independent"
       ],
     entry_points = {
-        'console_scripts': ['mdisk=mdisk:mdisk:main'],
+        'console_scripts': ['mdisk=mdisk.mdisk:main'],
     },
     zip_safe=False
 )
