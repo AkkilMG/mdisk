@@ -37,7 +37,8 @@ class Mdisk:
             param = {'token':str(self.api_key), 'link':str(link)} 
             r = requests.post(url, json = param) 
             response = r.json()
-            mdisk = response["sharelink"]
+            data = dict(response)
+            mdisk = data["sharelink"]
             return mdisk
         except ConnectionError as e:
             sys.exit(f"ERROR : {e}")
